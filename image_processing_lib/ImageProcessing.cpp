@@ -28,7 +28,6 @@ ImageProcessing::ImageProcessing(const char * _inImgName,
      colorTable = _colorTable;
      inBuf = _inBuf;
      outBuf = _outBuf;
-
 }
 
 void ImageProcessing::readImage() {
@@ -87,7 +86,6 @@ void ImageProcessing::copyImageData(unsigned char *_srcBuf, unsigned char *_dest
     for (int i = 0; i < bufSize; i++) {
         _destBuf[i] = _srcBuf[i];
     }
-
 }
 
 ImageProcessing::~ImageProcessing() {
